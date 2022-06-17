@@ -9,5 +9,5 @@ ADD swagger_client /app/swagger_client
 ADD tests/ /app/tests
 ADD utils/ /app/utils
 COPY pytest.ini pytest.ini
-CMD [ "ls" , "/app/"]
+
 ENTRYPOINT [ "python3.9", "-m" , "pytest" , "tests" ]
