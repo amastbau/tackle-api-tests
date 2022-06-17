@@ -32,13 +32,14 @@ $ export TACKLE_USER=?
 
 $ export TACKLE_PASSWORD=?
 
-$ export =? # including http:// Or https:// and without no closing /
+$ export TACKLE_URL=? # including http:// Or https:// and without no closing /
 
 $ python3.9 -m pytest /home/amos/git/tackle-integration-tests/tests/test_tags.py
 
 ### Utils
 
-#### Get keycloak API token
+#### Get keycloak API token (virutal env only)
+
 $ python3.9 utils/get-token.py --user=? --password=? --host=?
 
 ##### Note: tackle url should including http:// Or https:// without no closing /
