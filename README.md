@@ -18,7 +18,7 @@ $ podman run -e TACKLE_USER=? -e TACKLE_PASSWORD=? -e TACKLE_URL='http://x.x.x.x
 
 from example:
 
-$ podman run -e TACKLE_USER=user -e TACKLE_PASSWORD=pass -e TACKLE_URL='https://4.4.4.4' tackle-integration-tests -m smoke tests
+$ podman run -e TACKLE_USER=user -e TACKLE_PASSWORD=pass -e TACKLE_URL='https://4.4.4.4' tackle-integration-tests -m smoke
 
 
 ### Virtual Environment
