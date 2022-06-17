@@ -13,7 +13,10 @@ $ podman rmi tackle-integration-tests # if needed
 
 $ podman build -f Dockerfile -t tackle-integration-tests
 
-$ podman run -e TACKLE_USER=? -e TACKLE_PASSWORD=? -e TACKLE_URL='http://x.x.x.x' tackle-integration-tests [PYTEST OPTIONS] [TEST FOLDER]
+$ podman run -e TACKLE_USER=? 
+             -e TACKLE_PASSWORD=? \
+             -e TACKLE_URL='http://x.x.x.x' \
+             tackle-integration-tests [PYTEST OPTIONS]
 
 
 from example:
