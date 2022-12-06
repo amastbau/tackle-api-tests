@@ -45,7 +45,7 @@ class TackleApiGateway:
             c = cl.api_client.configuration
             c.api_key['Authorization'] = self.api_token
 
-    # @api_call
+    @api_call
     def get_tag_names(self):
         """
         Tag Controller Names.
